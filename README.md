@@ -60,8 +60,11 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
     setwd("C:/Users/Dr.Victor/Dropbox/R code")
     dir()
     ```
+    
 ## Lectura
-    ```{r}
+
+    ```javascript
+    {r}
     
     abalone1 <- read.table("https://drvcruz.s3.us-east-2.amazonaws.com/abalone.csv", header = T, sep = ",", dec=".")
     head(abalone1)
