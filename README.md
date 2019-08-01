@@ -50,9 +50,16 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 | **Prezi**                    |                                                                                                         |
 | **Relacionado**              | - Box plots <br>- Prueba de Shapiro                                                                     |
 | **Paquetes**                 | # install.packages("lattice")<br># install.packages("DAAG")<br># install.packages("moments")            |
-| **R codes**                  | https://drvcruz.s3.us-east-2.amazonaws.com/Limpio.Rmd                                                   |
+| **R codes**                  | `< https://drvcruz.s3.us-east-2.amazonaws.com/Limpio.Rmd>`                                             |
 
 ## Definiciones Generales
+
+```javascript
+    {r setup, include=FALSE}
+    knitr::opts_chunk$set(echo = TRUE)
+    setwd("C:/Users/Dr.Victor/Dropbox/R code")
+    dir()
+```
 
     ```javascript
     {r setup, include=FALSE}
