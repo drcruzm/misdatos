@@ -53,7 +53,9 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 | **R codes**                  | https://drvcruz.s3.us-east-2.amazonaws.com/Limpio.Rmd                                                   |
 
 ## Definiciones Generales
-    ```{r setup, include=FALSE}
+
+    ```javascript
+    {r setup, include=FALSE}
     knitr::opts_chunk$set(echo = TRUE)
     setwd("C:/Users/Dr.Victor/Dropbox/R code")
     dir()
